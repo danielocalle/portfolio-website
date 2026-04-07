@@ -2,7 +2,7 @@ export const profile = {
 	name: "Daniel Calle",
 	role: "Computer Science Student @ Washington State University",
 	blurb:
-		"Short blurb here...",
+		"I love building software that solves real-world problems. I have experience in full-stack development, and I'm passionate about learning new technologies and improving my skills.",
 	about:
 		"I'm a computer science student...",
 	email: "daniel@calle.org",

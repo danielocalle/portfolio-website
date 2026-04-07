@@ -12,10 +12,12 @@ Personal portfolio website built with Astro. This project is currently in early 
 
 ## Current State
 
-- Single landing page at `src/pages/index.astro`
-- Global Tailwind setup via `src/styles/global.css`
-- One animated React component: `src/components/RotatingDot.tsx`
-- Astro + React integration configured in `astro.config.mjs`
+- Single-page landing scaffold composed in `src/pages/index.astro`
+- Sticky top navigation component at `src/components/NavBar.tsx`
+- Hero/intro section with subtle Motion reveal at `src/components/HeroSection.tsx`
+- Shared placeholder portfolio content centralized in `src/data/portfolio.ts`
+- About/Work/Contact anchor targets are set up for upcoming section iterations
+- Global Tailwind setup via `src/styles/global.css` with Astro + React integration in `astro.config.mjs`
 
 ## Requirements
 

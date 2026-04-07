@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import NavBar from '../components/NavBar';
 ---
 
 <html lang="en">
@@ -11,6 +12,7 @@ import '../styles/global.css';
 	<body class="bg-slate-950 text-slate-100 antialiased">
 		<div class="relative min-h-screen">
 			<div class="pointer-events-none absolute left-1/2 top-0 z-0 h-96 w-xl -translate-x-1/2 rounded-full bg-cyan-500/15 blur-3xl"></div>
+			<NavBar client:load />
 			<main id="top" class="relative z-10 mx-auto flex max-w-5xl flex-col gap-20 px-6 pb-16 pt-14">
 			</main>
 		</div>

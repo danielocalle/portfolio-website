@@ -1,46 +1,39 @@
-# Astro Starter Kit: Basics
+# Portfolio Website
 
-```sh
-npm create astro@latest -- --template basics
+Personal portfolio website built with Astro. This project is currently in early development and serves as the foundation for future sections, projects, and content.
+
+## Tech Stack
+
+- Astro 6
+- React 19 (for interactive islands/components)
+- Tailwind CSS 4
+- Motion (React animation library)
+- TypeScript
+
+## Current State
+
+- Single landing page at `src/pages/index.astro`
+- Global Tailwind setup via `src/styles/global.css`
+- One animated React component: `src/components/RotatingDot.tsx`
+- Astro + React integration configured in `astro.config.mjs`
+
+## Requirements
+
+- Node.js `>=22.12.0`
+- npm
+
+## Development
+
+```bash
+npm install
+npm run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Local dev server runs at `http://localhost:4321`.
 
-## 🚀 Project Structure
+## Scripts
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- `npm run dev` - start development server
+- `npm run build` - create production build in `dist/`
+- `npm run preview` - preview the production build locally
+- `npm run check` - run Astro type/content checks

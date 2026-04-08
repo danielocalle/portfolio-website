@@ -4,7 +4,7 @@ export const profile = {
 	blurb:
 		"I love building software that solves real-world problems. I have experience in full-stack development, and I'm passionate about learning new technologies and improving my skills.",
 	about:
-		"I am a computer science student currently at Washington State University, but I am also an incoming Full-Time Software Engineer for Boeing!",
+		"I am a computer science student currently at Washington State University, but I am also an incoming full-time Software Engineer for Boeing!",
 	email: "daniel@calle.org",
 	github: "https://github.com/danielocalle",
 	linkedin: "https://www.linkedin.com/in/danielocalle/"

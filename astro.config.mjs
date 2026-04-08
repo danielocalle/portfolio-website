@@ -6,6 +6,8 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://calle.org',
+  base: '/daniel',
   integrations: [react()],
 
   vite: {

@@ -12,22 +12,22 @@ export const profile = {
 
 export const featuredWork = [
 	{
-		title: "Project One",
+		title: "Election Document Editor",
 		description:
-			"Description...",
-		tags: ["Tool1", "Tool2", "Tool3"]
+			"Built a web-based election document editor with drag-and-drop workflows, strongly typed components, and a testable front-end architecture for reliable release quality.",
+		tags: ["React", "TypeScript", "Vite", "Tailwind CSS", "Vitest"]
 	},
 	{
-		title: "Project Two",
+		title: "Spreadsheet Application",
 		description:
-			"Description...",
-		tags: ["Tool1", "Tool2", "Tool3"]
+			"Developed a desktop spreadsheet tool in C# with WinForms and .NET, implementing core grid logic and automated unit tests to validate functionality.",
+		tags: ["C#", ".NET", "WinForms", "NUnit", "Visual Studio"]
 	},
 	{
-		title: "Project Three",
+		title: "Portfolio Website",
 		description:
-			"Description...",
-		tags: ["Tool1", "Tool2", "Tool3"]
+			"Designed and shipped this portfolio using Astro with React components, utility-first styling, and smooth interaction design to create a fast, modern personal site.",
+		tags: ["Astro", "React", "TypeScript", "Tailwind CSS", "Motion"]
 	}
 ];
 

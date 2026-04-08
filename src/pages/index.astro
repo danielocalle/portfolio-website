@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import NavBar from '../components/NavBar';
 import HeroSection from '../components/HeroSection';
+import AboutSection from '../components/AboutSection';
 import ContactSection from '../components/ContactSection';
 ---
 
@@ -17,6 +18,7 @@ import ContactSection from '../components/ContactSection';
 			<NavBar client:load />
 			<main id="top" class="relative z-10 mx-auto flex max-w-5xl flex-col gap-20 px-6 pb-16 pt-14">
 				<HeroSection client:load />
+				<AboutSection client:load />
 			</main>
 			<ContactSection client:load />
 		</div>
